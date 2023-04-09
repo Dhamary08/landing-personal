@@ -1,20 +1,24 @@
 body {
   font-family: "Lato", sans-serif;
   background-image: url(../img/fondo.svg);
-  color: #F2E7DC;
+  color: #f2e7dc;
 }
 
-.wrapper{
-	margin-left: 2%;
-	margin-right: 2%;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-@media(min-width: 768px){
-	.wrapper{
-		max-width: 950px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .nav-link {
@@ -31,18 +35,55 @@ body {
   border-bottom: 0.8rem wave #f2f2f230;
 }
 
-.imgMe{
-	position: relative;
-	top: -10%;
+.imgMe {
+  position: relative;
+  top: -10%;
 }
 
 @media (max-width: 768px) {
   .imgMe {
     height: 60vh;
-		max-width: 100%;
+    max-width: 100%;
   }
 }
 
-.text-bold{
-	font-weight: 900;
+.text-bold {
+  font-weight: 900;
+}
+
+footer {
+  background-color: rgb(64, 66, 66);
+  max-height: 50px;
+  color: aliceblue;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.imgLogo {
+  width: 5rem;
+  max-height: 100%;
+  position: fixed;
+}
+
+.navActive {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+}
+
+.skillImg {
+  width: 50%;
+  max-height: 100%;
+}
+
+.cardSkill {
+  background-color: rgba(160, 61, 3, 0.5);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card {
+  background-color: #f2e7dc30;
 }
