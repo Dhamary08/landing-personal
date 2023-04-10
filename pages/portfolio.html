@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valeria Manríquez - Contacto Desarollo Web</title>
+    <title>Valeria Manríquez - Acerca de Mi</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,8 +17,10 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-transparent fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="../index.html">Valeria Manríquez</a>
+        <div class="container-fluid wrapper">
+          <a href="../index.html">
+            <img src="../assets/img/logo/4xLogo.png" alt="" class="imgLogo" />
+          </a>
           <button
             class="navbar-toggler bg-light"
             type="button"
@@ -52,7 +54,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-light mx-3"
+                  class="nav-link btn btn-outline-light mx-3 navActive"
                   href="portfolio.html"
                   >Portafolio</a
                 >
@@ -73,18 +75,61 @@
           <div class="carousel-item active">
             <img
               src="../assets/img/2862665.png"
-              class="d-block imgHeader"
+              class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption">
-              <h1>Valeria Manríquez</h1>
-              <h4>Desarrollo Web</h4>
-            </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </header>
-
+    <main>
+      <section class="container-fluid"></section>
+      <section class="container-fluid"></section>
+      <section class="my-5">
+        <nav class="navbar primaryRrss">
+          <div class="container-fluid d-flex justify-content-around wrapper">
+						<img src="../assets/img/logo/logo.png" alt="" srcset="">
+            <a
+              class="navbar-brand wrapper"
+              href="https://www.linkedin.com/in/valeria-manriquez/"
+              target="_blank"
+            >
+              <img src="../assets/img/rrss/linkedin.svg" alt="" class="imgRrss" />
+            </a>
+            <a
+              class="navbar-brand wrapper"
+              href="https://github.com/Dhamary08/"
+            >
+              <img src="../assets/img/rrss/github.svg" alt="" class="imgRrss" />
+            </a>
+            <a class="navbar-brand wrapper" href="https://valeriamanriquez.cl">
+              <img src="../assets/img/rrss/link.svg" alt="" class="imgRrss" />
+            </a>
+          </div>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <p class="text-center m-0 p-0">2023 - Valeria Manríquez</p>
+    </footer>
     <div class="h-100 bg-primary"></div>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/bootstrap.js"></script>

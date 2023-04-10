@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.43 19.99">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        font-family: Lato-Light, Lato;
+        font-size: 6px;
+        font-weight: 300;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f2e7dc;
+      }
+
+      .cls-4 {
+        fill: #ee8435;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 9.45px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-family: Lato-Medium, Lato;
+        font-size: 12px;
+      }
+
+      .cls-3, .cls-8 {
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        font-family: Clicker-Medium, Clicker;
+        font-size: 12.4px;
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <text class="cls-3" transform="translate(36.69 10.63)"><tspan class="cls-6" x="0" y="0">V</tspan><tspan x="7.52" y="0">ALERI</tspan><tspan class="cls-15" x="39.77" y="0">A</tspan><tspan x="47.55" y="0" xml:space="preserve"> MANRIQUEZ</tspan></text>
+        <text class="cls-2" transform="translate(37.31 18.08)"><tspan class="cls-16" x="0" y="0">F</tspan><tspan class="cls-1" x="3.11" y="0">r</tspan><tspan x="5.07" y="0">o</tspan><tspan class="cls-9" x="8.42" y="0">n</tspan><tspan class="cls-11" x="11.68" y="0">t</tspan><tspan x="13.72" y="0">end </tspan><tspan class="cls-5" x="25.09" y="0">D</tspan><tspan class="cls-12" x="29.6" y="0">e</tspan><tspan class="cls-13" x="32.68" y="0">v</tspan><tspan class="cls-10" x="35.62" y="0">elope</tspan><tspan class="cls-14" x="49.86" y="0">r</tspan></text>
+      </g>
+      <path class="cls-4" d="m24.35,19.99h-15.15c-3.17,0-5.73-2.57-5.73-5.73V5.73C3.46,2.57,6.03,0,9.19,0h15.15c3.17,0,5.73,2.57,5.73,5.73v8.52c0,3.17-2.57,5.73-5.73,5.73Z"/>
+      <rect class="cls-4" y="5.48" width="8.6" height="9.03" rx="2.87" ry="2.87"/>
+      <rect class="cls-4" x="24.6" y="5.48" width="8.6" height="9.03" rx="2.87" ry="2.87"/>
+      <g>
+        <text class="cls-8" transform="translate(6.71 14.31) scale(.66 1)"><tspan x="0" y="0" xml:space="preserve">&lt;    &gt;</tspan></text>
+        <text class="cls-7" transform="translate(12.16 11.76) scale(.87 1)"><tspan x="0" y="0">...</tspan></text>
+        <text class="cls-8" transform="translate(16.97 14.31) scale(.66 1)"><tspan x="0" y="0">/</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
