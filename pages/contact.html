@@ -47,14 +47,14 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-light mx-3"
+                  class="nav-link btn btn-outline-light mx-3 disabled"
                   href="services.html"
                   >Servicio</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link btn btn-outline-light mx-3"
+                  class="nav-link btn btn-outline-light mx-3 disabled"
                   href="portfolio.html"
                   >Portafolio</a
                 >
@@ -70,45 +70,71 @@
           </div>
         </div>
       </nav>
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/img/2862665.png" class="d-block w-100" alt="..." />
+    </header>
+    <main class="my-5">
+      <section class="container-fluid my-5"></section>
+      <section class="container-fluid">
+        <div class="row wrapper">
+          <div
+            class="col-12 col-md-6 order-2 order-md-1 align-items-center my-5 py-2"
+          >
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Dime como te llamas"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="ejemplo@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div>
+              <button block type="button" class="btn btn-primary">
+                Enviar
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 order-1 order-md-2">
+            <img src="../assets/img/Inbox.svg" alt="" />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </header>
-    <main>
-      <section class="container-fluid"></section>
-      <section class="container-fluid"></section>
-     <section class="my-5">
+      </section>
+      <section class="my-5">
         <nav class="navbar primaryRrss">
           <div class="container-fluid d-flex justify-content-around wrapper">
-						<img src="../assets/img/logo/logo.png" alt="" srcset="">
+            <img src="../assets/img/logo/logo.png" alt="" />
             <a
               class="navbar-brand wrapper"
               href="https://www.linkedin.com/in/valeria-manriquez/"
               target="_blank"
             >
-              <img src="../assets/img/rrss/linkedin.svg" alt="" class="imgRrss" />
+              <img
+                src="../assets/img/rrss/linkedin.svg"
+                alt=""
+                class="imgRrss"
+              />
             </a>
             <a
               class="navbar-brand wrapper"
