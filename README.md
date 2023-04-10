@@ -1,2 +1,2 @@
 # Segunda-Preentrega-CoderHouse
-Segunta preentega desarollo web, estilos bootstrap css html
+https://dhamary08.github.io/Segunda-Preentrega-CoderHouse/
