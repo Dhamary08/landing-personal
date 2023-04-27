@@ -21,6 +21,10 @@ body::-webkit-scrollbar {
   }
 }
 
+nav{
+  background: rgb(249, 104, 0)
+}
+
 .nav-link {
   color: aliceblue;
 }
@@ -63,7 +67,6 @@ footer {
 .imgLogo {
   max-width: 100%;
   height: 2rem;
-  position: fixed;
 }
 
 .navActive {
