@@ -6197,14 +6197,29 @@ textarea.form-control-lg {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
+  right: 25%;
   bottom: 1.25rem;
   left: 15%;
   padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 4rem;
   color: #fff;
   text-align: center;
 }
+
+@media (max-width: 767.98px) {
+  .carousel-caption {
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.5rem;
+    left: 1.25rem;
+    padding-bottom: 0.5rem;
+    width: 55%;
+  }
+  .text-small{
+    width: 80%;
+  }
+}
+
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
