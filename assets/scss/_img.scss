@@ -1,0 +1,36 @@
+.imgHeader {
+  max-height: 95vh;
+  width: 100vw;
+  border-bottom: 0.8rem wave #f2f2f230;
+}
+
+.imgLogo {
+  max-width: 100%;
+  height: 2rem;
+}
+
+.imgMe {
+  position: relative;
+  top: -10%;
+}
+
+@media (max-width: 768px) {
+  .imgMe {
+    height: 60vh;
+    max-width: 100%;
+  }
+}
+
+.skillImg {
+  width: 50%;
+  max-height: 100%;
+}
+
+.imgRrss {
+  width: 1.8rem;
+  max-height: 100%;
+}
+
+.imgResponsive {
+  width: 50%;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+footer {
+  background-color: $greenLight;
+  max-height: 50px;
+  color: $blueLight;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+}

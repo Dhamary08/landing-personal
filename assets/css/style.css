@@ -20,23 +20,37 @@ body::-webkit-scrollbar {
     margin-right: auto;
   }
 }
+footer {
+  background-color: #404242;
+  max-height: 50px;
+  color: #f0f8ff;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+}
 
-nav{
-  background: rgb(249, 104, 0)
+nav {
+  background: #f96800;
 }
 
 .nav-link {
-  color: aliceblue;
+  color: #f2f2f2;
 }
 
-.btn-navLink {
-  border-radius: 2px solid #f2f2f2;
+.navActive {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
 }
 
 .imgHeader {
   max-height: 95vh;
   width: 100vw;
-  border-bottom: 0.8rem wave #f2f2f230;
+  border-bottom: 0.8rem wave rgba(242, 242, 242, 0.1882352941);
+}
+
+.imgLogo {
+  max-width: 100%;
+  height: 2rem;
 }
 
 .imgMe {
@@ -50,45 +64,9 @@ nav{
     max-width: 100%;
   }
 }
-
-.text-bold {
-  font-weight: 900;
-}
-
-footer {
-  background-color: rgb(64, 66, 66);
-  max-height: 50px;
-  color: aliceblue;
-  margin: 0;
-  position: sticky;
-  bottom: 0;
-}
-
-.imgLogo {
-  max-width: 100%;
-  height: 2rem;
-}
-
-.navActive {
-  border: 1px solid #f2f2f2;
-  border-radius: 10px;
-}
-
 .skillImg {
   width: 50%;
   max-height: 100%;
-}
-
-.cardSkill {
-  background-color: rgba(160, 61, 3, 0.5);
-  padding: 12px;
-  border-radius: 12px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
-
-.card {
-  background-color: #f2e7dc30;
 }
 
 .imgRrss {
@@ -96,10 +74,20 @@ footer {
   max-height: 100%;
 }
 
-.primaryRrss {
-  background-color: rgb(249, 104, 0);
+.imgResponsive {
+  width: 50%;
 }
 
-.imgResponsive{
-	width: 50%;
+.btn-navLink {
+  border-radius: 2px solid #f2f2f2;
 }
+
+.text-bold {
+  font-weight: 900;
+}
+
+.primaryRrss {
+  background-color: #f96800;
+}
+
+/*# sourceMappingURL=style.css.map */
